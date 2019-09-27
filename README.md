@@ -7,9 +7,9 @@ Ayush Upneja: Computer Engineering Junior at Boston University
 Bronte Wen: CS/BME at Johns Hopkins University
 
 Kevin Jerome
-    Penn State University - University Park, PA
-    Junior
-    Computer Science 
+    School: Penn State University - University Park, PA
+    Year: Junior
+    Major: Computer Science 
     
 
 Richard Truong
