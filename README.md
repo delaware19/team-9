@@ -4,7 +4,7 @@ This is Team 9's github repository for Code For Good Delaware 2019!
 
 Ayush Upneja: Computer Engineering Junior at Boston University
 
-Bronte Wen
+Bronte Wen: CS/BME at Johns Hopkins University
 
 Kevin Jerome
 
