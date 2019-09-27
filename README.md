@@ -13,6 +13,9 @@ Kevin Jerome
     
 
 Richard Truong
+    The Pennsylvania State University,
+    Junior,
+    IST
 
 Michel Temgoua,
     University of Maryland- College Park,
