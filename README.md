@@ -11,6 +11,9 @@ Kevin Jerome
 Richard Truong
 
 Michel Temgoua
+    School: University of Maryland- College Park
+    Year: Junior
+    Major: Electrical Engineering
 
 Allen Gueco
     School: Villanova University
