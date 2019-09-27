@@ -13,3 +13,6 @@ Richard Truong
 Michel Temgoua
 
 Allen Gueco
+    School: Villanova University
+    Year: Senior
+    Major: Computer Science
