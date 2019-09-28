@@ -1,14 +1,20 @@
 {
-    'id':3,
-    'age':5,
-    'title':'My First Checkup',
-    'isFavorited':false,
-    'gender':'male',
-    'ethnicity':'white',
-    'pages':[
+    "id":3,
+    "age":5,
+    "title":"My First Checkup",
+    "isFavorited":false,
+    "gender":"male",
+    "ethnicity":"asian",
+    "pages":[
         {
-            'image':'/absolute_path',
-            'text':[]
+            "image":"/absolute_path_to_img1",
+            "text":[
+                {"0-5":"Hello"},
+                {"5-12":"Hello 2"},
+                {"12-18":"Hello 3"},
+                {"18+":"Hello 4"}
+            ]
         }
     ]
 }
+
