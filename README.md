@@ -16,6 +16,7 @@ Kevin Jerome
 - School: Penn State University - University Park, PA
 - Year: Junior
 - Major: Computer Science 
+- P.S. It is almost 9am and I am exhausted
     
 
 Richard Truong

@@ -1,13 +1,14 @@
-var SocialStories = window.sessionStorage;
+var SocialStories = window.localStorage;
 var stories = [];
-
 function submit() {
-    var t = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
+    var temp = {};
+    temp = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
+    stories.push(temp);
 
-    stories.push(t);
-    console.log(stories);
+    var c = {};
+    c = stories;
     var story = {"id": 0,
-                "pages": stories,
+                "pages": c,
                 "age": document.getElementById("age").value,
                 "title": document.getElementById("title").value,
                 "isFavorited": false,
@@ -17,10 +18,9 @@ function submit() {
     SocialStories.setItem('Story', JSON.stringify(story));
 }
 function doSomething() {
-    var t = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
-    stories.push(t);
-    console.log(stories);
+    var temp = {};
+    temp = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
+    stories.push(temp);
 }
-
 var newstory = document.getElementById("NewStory");
 newstory.addEventListener("submit", submit);
