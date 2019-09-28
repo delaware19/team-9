@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Enter a Story</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body style="background-color:#406FB5">
+    <h1 style="text-align:center;color:white">Story Entry Form</h1>
+    <form id="info">
+        <p>title:</p>
+        <input type="text" id="title">
+        <br><br><br>
+        <div class="identifiers">
+            <p>age:</p>
+            <input type="text" id="age">
+            <p>gender:</p>
+            <input type="text" id="gender">
+            <p>ethnicity:</p>
+            <input type="text" id="ethnicity">
+        </div>
+    </form>
+    <form id="NewStory">
+        <p>text:</p><br>
+        <input type="text" id="text">
+        <br><br>
+        <p>image:</p><br>
+        <input type="file" id="image" accept=".png,.jpg,.gif" style="color:white;">
+        <br><br><br>
+        <button onclick="doSomething" style="width:45%">Add Page</button>
+        <input type="submit" value="submit" style="width:45%">
+    </form> 
+    <script src="Test.js"></script>
+</body>
