@@ -34,7 +34,7 @@ Allen Gueco
 - Year: Senior
 - Major: Computer Science
 
-Diverse team!
+Non Profit 
 
 ### Working on Project Nemours
 Developing a web app to help autistic children prepare for hospital visits using social stories
