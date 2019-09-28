@@ -1,27 +1,26 @@
-var Story = window.localStorage;
-var pagecount = 0;
-var myimagearray = [];
-var mytextarray = [];
+var SocialStories = window.localStorage;
 var stories = [];
 function submit() {
-    for (var i; i < myimagearray.length; i++) {
-        stories.push({"image":myimagearray[i], "text":mytextarray[i]});
-    }
-    var JSON = {"id": 0,
+    var temp = {};
+    temp = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
+    stories.push(temp);
+
+    var c = {};
+    c = stories;
+    var story = {"id": 0,
+                "pages": c,
                 "age": document.getElementById("age").value,
                 "title": document.getElementById("title").value,
-                "isfavorited": false,
+                "isFavorited": false,
                 "gender": document.getElementById("gender").value,
-                "ethnicity": document.getElementById("ethnicity").value,
-                "pages": stories
+                "ethnicity": document.getElementById("ethnicity").value
     };
-    Story.setItem('Story', JSON);         
+    SocialStories.setItem('Story', JSON.stringify(story));
 }
 function doSomething() {
-    myimagearray.push(document.getElementById("image").value);
-    mytextarray.push(document.getElementById("text").value);
-    document.getElementById("text").value = "";
-    document.getElementById("image").value = "";
+    var temp = {};
+    temp = {"image":document.getElementById("image").value, "text":document.getElementById("text").value};
+    stories.push(temp);
 }
 var newstory = document.getElementById("NewStory");
 newstory.addEventListener("submit", submit);
