@@ -675,7 +675,7 @@ ul.list-unstyled li {
 .giveagift span {
     height: 3em;
     width: 3em;
-    background-image: url('/etc/designs/nemoursv2/www/image/make-gift-icon.svg');
+    background-image: url('make-gift-icon.svg');
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
