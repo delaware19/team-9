@@ -5,6 +5,7 @@
     "isFavorited":false,
     "gender":"male",
     "ethnicity":"asian",
+    "isFavorite":"",
     "pages":[
         {
             "image":"/absolute_path_to_img1",
