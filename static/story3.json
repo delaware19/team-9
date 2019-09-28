@@ -1,0 +1,25 @@
+{
+    'id':5,
+    'age':5,
+    'title':'My First Checkup',
+    'isFavorited':false,
+    'gender':'male',
+    'ethnicity':'white',
+    'pages':[
+        {
+            'image':'./img/Example_5.jpg',
+            'text':""
+        },
+
+        {
+            'image':'./img/Example_6.jpg',
+            'text':""
+        },
+
+        {
+            'image':'./img/Example_7.jpg',
+            'text':""
+        }
+
+    ]
+}
