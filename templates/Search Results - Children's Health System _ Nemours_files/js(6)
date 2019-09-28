@@ -1,0 +1,72 @@
+(function() {
+try {
+    (function(){
+/*
+//rtd-tm.everesttech.net/upi/?sid=pNS8V6p8tGl62pBb1DFc&cs=8724025221
+//ds.reson8.com/insights.gif?rand=8724025221&t=0&pixt=Other&advkey=0010M00001UaHE1QAN&opptykey=BARR0219E&evkey=200303980&evtype=custom
+//rtd-tm.everesttech.net/upi/?sid=DAHxsBSnNqeyitGiuIua&cs=8724025221
+*/
+
+  var mm_ri = String( Math.random() );
+  mm_ri = mm_ri.replace( /0\./g,'' );
+
+  var mm_protocol = location.protocol;
+  if ( mm_protocol != 'http:' && mm_protocol != 'https:' ){ mm_protocol = 'http:'; }
+
+  var mm_el0 = document.createElement('img');
+  var url0 = '//rtd-tm.everesttech.net/upi/?sid=pNS8V6p8tGl62pBb1DFc&cs=8724025221';
+  url0 = url0.replace("\[RANDOM_NUMBER\]", mm_ri);
+  mm_el0.width = 1;
+  mm_el0.height = 1;
+  mm_el0.style.display = 'none';
+  mm_el0.src = url0;
+  document.body.appendChild(mm_el0);
+
+  var mm_el1 = document.createElement('img');
+  var url1 = '//ds.reson8.com/insights.gif?rand=8724025221&t=0&pixt=Other&advkey=0010M00001UaHE1QAN&opptykey=BARR0219E&evkey=200303980&evtype=custom';
+  url1 = url1.replace("\[RANDOM_NUMBER\]", mm_ri);
+  mm_el1.width = 1;
+  mm_el1.height = 1;
+  mm_el1.style.display = 'none';
+  mm_el1.src = url1;
+  document.body.appendChild(mm_el1);
+
+  var mm_el2 = document.createElement('img');
+  var url2 = '//rtd-tm.everesttech.net/upi/?sid=DAHxsBSnNqeyitGiuIua&cs=8724025221';
+  url2 = url2.replace("\[RANDOM_NUMBER\]", mm_ri);
+  mm_el2.width = 1;
+  mm_el2.height = 1;
+  mm_el2.style.display = 'none';
+  mm_el2.src = url2;
+  document.body.appendChild(mm_el2);
+
+
+})();
+(function() {
+    try {
+        if (document.getElementById('mm_sync_back_ground'))
+           return;
+        var frm = document.createElement('iframe');
+        frm.style.visibility = 'hidden';
+        frm.style.display = 'none';
+        frm.src = "https://pixel.mathtag.com/sync/iframe?mt_uuid=37295d74-d3ea-4e00-bb25-87324f8f56b2&no_iframe=1&mt_adid=210421";
+        frm.setAttribute("id", "mm_sync_back_ground");
+
+        if (document.body)
+            document.body.appendChild(frm);
+        else
+            if (document.head)
+                document.head.appendChild(frm);
+    }
+    catch(ex)
+    {
+        document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=synciframe&what="+encodeURIComponent(ex.message);
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap_js&what="+encodeURIComponent(ex.message);
+}
+})();

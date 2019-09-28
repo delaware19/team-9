@@ -1,0 +1,41 @@
+﻿.px-non-responsive .px-col-2 {
+	width: 16.66666%;
+	float: left;
+}
+.px-non-responsive .px-col-3 {
+	width: 25%;
+	float:left;
+}
+.px-non-responsive .px-col-4 {
+	width: 33.333333%;
+	float:left;
+}
+.px-non-responsive .px-col-6 {
+	width: 50%;
+	float:left;
+}
+.px-non-responsive .px-col-8 {
+	width: 66.66666%;
+	float:left;
+}
+.px-non-responsive .px-col-9 {
+	width: 75%;
+	float:left;
+}
+.px-non-responsive .px-col-10 {
+	width: 83.33333%;
+	float:left;
+}
+.px-non-responsive .px-col-12 {
+	width: 100%;
+	float:left;
+}
+.px-non-responsive .px-sections {
+	width: 75%;
+	float: left;
+}
+.px-non-responsive .px-faceted-search  {
+	padding-right: 15px;
+	float: left;
+	min-width: 200px;
+}

@@ -1,0 +1,684 @@
+﻿/*** Responsive ***/
+@media (max-width: 450px) {
+	.px-responsive .px-comment-body {
+		min-width: 200px;
+	}
+	.px-responsive .px-comment-stars-date-wrapper {
+		float: none !important;
+	}
+
+	.px-question:nth-child(2n+1) {
+		clear: both;
+	}
+}
+
+@media (max-width: 550px) {
+	.px-histogram-header-wrapper {
+		position:relative;
+		width: 50%;
+		margin: 0 auto !important;
+		right: 20px;
+	}
+	.px-responsive .px-sentimentLegend {
+		padding-top: 20px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		float: none !important;
+		width: 50% !important;
+		min-width: 190px !important;
+		margin: 0 auto !important;
+	}
+	.px-responsive .px-histogram {
+		float: none !important;
+		min-width: 230px !important;
+		margin: 0 auto !important;
+		position: relative
+	}
+}
+
+@media (min-width: 768px) {
+	.px-question:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.px-responsive .px-question {
+		padding-right: 15px;
+	}
+
+	.px-responsive .px-col-sm-2 {
+		width: 16.66666%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-3 {
+		width: 25%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-4 {
+		width: 33.333333%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-6 {
+		width: 50%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-8 {
+		width: 66.66666%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-9 {
+		width: 75%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-10 {
+		width: 83.33333%;
+		float: left;
+	}
+	.px-responsive .px-col-sm-12 {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.px-responsive .px-col-md-2 {
+		width: 16.66666%;
+		float: left;
+	}
+	.px-responsive .px-col-md-3 {
+		width: 25%;
+		float: left;
+	}
+	.px-responsive .px-col-md-4 {
+		width: 33.333333%;
+		float: left;
+	}
+	.px-responsive .px-col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.px-responsive .px-col-md-8 {
+		width: 66.66666%;
+		float: left;
+	}
+	.px-responsive .px-col-md-9 {
+		width: 75%;
+		float: left;
+	}
+	.px-responsive .px-col-md-10 {
+		width: 83.33333%;
+		float: left;
+	}
+	.px-responsive .px-col-md-12 {
+		width: 100%;
+		float: left;
+	}
+
+	.px-question:nth-child(2n+1) {
+		clear: none;
+	}
+
+	.px-question:nth-child(3n+1) {
+		clear: both;
+	}
+}
+/*** End px-responsive ***/
+
+/** Animations ***/
+@-webkit-keyframes px-fadeIn {
+	0% {
+		display:none; 
+		opacity: 0;
+	}
+	1% {
+		display: block ; 
+		opacity: 0;
+	}
+	100% {
+		display: block ; 
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes px-fadeIn {
+	0% {
+		display:none; 
+		opacity: 0;
+	}
+	1% {
+		display: block ; 
+		opacity: 0;
+	}
+	100% {
+		display: block ; 
+		opacity: 1;
+	}
+}
+
+@-o-keyframes px-fadeIn {
+	0% {
+		display:none; 
+		opacity: 0;
+	}
+	1% {
+		display: block ; 
+		opacity: 0;
+	}
+	100% {
+		display: block ; 
+		opacity: 1;
+	}
+}
+
+@keyframes px-fadeIn {
+	0% {
+		display:none; 
+		opacity: 0;
+	}
+	1% {
+		display: block ; 
+		opacity: 0;
+	}
+	100% {
+		display: block ; 
+		opacity: 1;
+	}
+}
+
+.px-fadeIn
+{
+	display: block;
+	-webkit-animation: px-fadeIn .5s ease-in; /* Safari 4+ */
+	-moz-animation: px-fadeIn .5s ease-in; /* Fx 5+ */
+	-o-animation: px-fadeIn .5s ease-in; /* Opera 12+ */
+	animation: px-fadeIn .5s ease-in; /* IE 10+, Fx 29+ */
+}
+.px-fadeIn-quick
+{
+	display: block;
+	-webkit-animation: px-fadeIn .2s ease-in; /* Safari 4+ */
+	-moz-animation: px-fadeIn .2s ease-in; /* Fx 5+ */
+	-o-animation: px-fadeIn .2s ease-in; /* Opera 12+ */
+	animation: px-fadeIn .2s ease-in; /* IE 10+, Fx 29+ */
+}
+
+/** End Animations ***/
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.px-cf:before,
+.px-cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.px-cf:after {
+	clear: both;
+}
+
+/*** General ***/
+.px-rating *,
+.px-rating-aggregate *,
+.px-rating-rollup *,
+.px-rating-questions *,
+.px-rating-comments *
+{
+	box-sizing: border-box;
+}
+
+.px-rating a {
+	color: #23527c;
+	text-decoration: none;
+}
+
+td.px-span {
+	margin-right: 0;
+	width: 87.43%;
+	float: none;
+}
+
+.px-nowrap {
+	white-space: nowrap;
+}
+
+span.px-nowrap {
+	display: block;
+}
+
+.px-histogram-legend-border {
+	border-bottom: 1px solid #CCCCCC;
+	margin: 14px 0;
+}
+
+/*** Histogram ***/
+.px-histogram-header-wrapper {
+	min-width: 230px;
+}
+
+.px-histogram-header {
+	display: block;
+	font-size: larger;
+	padding-bottom: 6px;
+	float: left;
+}
+
+.px-remove-filter {
+	font-size: smaller;
+	white-space: nowrap;
+	display: none;
+	position: relative;
+	top: 4px;
+}
+
+.px-remove-filter-link {
+	padding-left: 10px;
+}
+
+.px-remove-filter-checkbox {
+	padding-right: 2px;
+	vertical-align: top;
+	bottom: 2px;
+	position: relative;
+}
+
+.px-meter {
+	border-bottom: 17px solid #e0e0e0;
+}
+
+.px-meter .px-meter-bar {
+	width: 0;
+	float: left;
+	border-bottom: 15px solid #ffc120;
+	outline: 1px solid gray;
+	margin-top: 1px;
+}
+
+.px-histogram {
+	width: 230px;
+	float: left;
+}
+.px-histogram-row {
+	color: #767676;
+}
+
+.px-histogram-row a {
+	color: #374b74;
+	text-decoration: none;
+}
+
+.px-histogram-row:active a,
+.px-histogram-row:hover a {
+	text-decoration: underline;
+}
+
+.px-histogram-row td {
+	padding: 1px 3px;
+}
+
+.px-histogram .px-histogram-review-count {
+	text-decoration: none;
+	color: #aaa;
+}
+/*** End Histogram ***/
+
+/*** Sentiment Lengend ***/
+.px-legendWrapper {
+	overflow:auto;
+	margin-bottom: 10px;
+}
+
+.px-sentimentLegend {
+
+	padding-left: 10px;
+	padding-right: 20px;
+	float: right;
+	color: #767676;
+}
+
+.px-sentimentLegendTitle {
+	display: block;
+	text-align: center;
+	font-size: smaller;
+}
+
+.px-sentimentLegendItem {
+	font-size: smaller;
+	vertical-align: middle;
+}
+
+.px-sentimentLegendItem img,
+.px-sentimentLegendItem .px-icon {
+	margin-right: 5px;
+	height: 20px;
+	width: 20px;
+	line-height: 1.3;
+}
+
+.px-sentimentLegendItem .px-icon {
+	font-size: 20px;
+}
+
+/*** End Sentiment Lengend ***/
+
+/*** Sentiment Icons ***/
+@font-face {
+	font-family: 'PxStarFont';
+	src: url('../Fonts/PxStarFonts/PxStarFont.eot');
+	src: url('../Fonts/PxStarFonts/PxStarFont.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts/PxStarFonts/PxStarFont.woff') format('woff'),
+		url('../Fonts/PxStarFonts/PxStarFont.ttf') format('truetype'),
+		url('../Fonts/PxStarFonts/PxStarFont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.px-icon {
+	font-family: 'PxStarFont';
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: normal !important;
+}
+
+.px-very-negative-icon:before {
+	content: 'A';
+}
+
+.px-negative-icon:before {
+	content: 'B';
+}
+
+.px-neutral-icon:before {
+	content: 'C';
+}
+
+.px-positive-icon:before {
+	content: 'D';
+}
+
+.px-very-positive-icon:before {
+	content: 'E';
+}
+
+.px-sentiment .px-icon {
+	font-size: 25px;
+}
+
+/*** End Sentiment Icons ***/
+
+/*** Image Stars ***/
+.px-star-rating.image-based .px-star-images img{
+	vertical-align: top;
+}
+
+.px-star-rating.image-based .px-star-images {
+	border: 0;
+	z-index: 10;
+}
+
+.px-star-rating.image-based .px-star-images img{
+	max-width: none !important;
+}
+
+.px-star-rating.image-based .px-active-color,
+.px-star-rating.image-based .px-star-images {
+	position: absolute;
+}
+
+/* Comments stars */
+.px-comment-wrapper .px-star-rating.image-based,
+.px-comment-wrapper .px-star-rating.image-based .px-active-color {
+	width: 100px;
+	height: 20px;
+	border-bottom: 20px solid #e0e0e0;
+}
+
+/* Aggregate and Questions stars */
+.px-ratingHolder .px-star-rating.image-based,
+.px-ratingHolder .px-star-rating.image-based .px-active-color {
+	width: 127px;
+	height: 26px;
+	border-bottom: 26px solid #e0e0e0;
+}
+/*** End Stars ***/
+ 
+
+/*** Sections ***/
+.px-border {
+	border-bottom:  1px dashed #B6B6B6;
+	margin-bottom: 35px;
+}
+
+.px-section-container {
+	margin-bottom: 15px;
+}
+
+.px-section-label {
+	display: block;
+	font-size: larger;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #B6B6B6;
+	background-color: #DADADA;
+	padding: 5px;
+}
+/*** End Sections ***/
+
+/*** Comments ***/
+.px-comment-wrapper {
+	margin-bottom: 14px;
+	clear:both;
+}
+
+.px-delayed-for-display {
+	color: #FD0018;
+	font-weight: bold;
+}
+
+.px-delayed-for-display-highlight {
+	background-color: #ECECEC;
+}
+
+.px-no-rating-copy {
+	margin-right: 10px;
+	margin-top: 2px;
+	font-size: smaller;
+}
+
+.px-comment-stars-date-wrapper { 
+	float:left;
+	padding-right: 15px;
+	min-width: 115px;
+}
+
+.px-date {
+	display: block;
+	font-size: smaller;
+	color: #767676;
+	overflow:hidden;
+	min-width: 70px;
+	padding-top: 2px;
+	padding-left: 2px;
+}
+
+.px-comment-body {
+	overflow: hidden;
+	min-width: 250px;
+}
+
+.px-source {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.px-comment-label {
+	display: block;
+}
+
+.px-comment-text {
+	min-height: 32px;
+	overflow:hidden;
+}
+
+.px-sentiment {
+	float: right;
+	margin-left: 8px;
+}
+
+.px-editedReason {
+	display: block;
+	text-align: right;
+	font-size: smaller;
+	color: gray;
+}
+
+.px-comments-top-border {
+	border-top: 1px solid #DADADA;
+}
+
+/* Comment links */
+[id^=px-moreTopContainer] {
+	overflow: auto;
+}
+
+[id^=px-moreTopContainer] a {
+	color: #00467f;
+}
+
+.px-topCommentsLink a,
+.px-moreCommentsLink a {
+	text-decoration: underline;
+}
+
+.px-arrow-down,
+.px-arrow-up {
+	text-decoration: none;
+	color: #00467f;
+	padding-left: 2px;
+}
+
+.px-topCommentsLink {
+	float: right;
+	padding: 5px;
+}
+
+.px-moreCommentsLink {
+	padding: 5px;
+}
+/*** End Comments ***/
+
+/*** Questions ***/
+.px-question {
+	min-height: 9em;
+	margin-bottom: 1em;
+}
+
+.px-question .px-rating-score {
+	display: block;
+}
+
+/*** End Questions ***/
+
+/***Section Search widget***/
+.px-faceted-search-header {
+	display: block;
+	padding: 5px;
+	background-color: #F5F5F5;
+	border: 1px solid #B6B6B6;
+	border-width: 1px 1px 0 1px;
+	background-color: #DADADA;
+	font-size: larger;
+}
+
+.px-faceted-search ul li {
+	list-style-position: inside;
+}
+
+.px-faceted-search ul li.px-unselected {
+	list-style-image: url('/Content/images/transparency/checkboxUnchecked.gif');
+}
+
+.px-faceted-search ul li.px-selected {
+	list-style-image: url('/Content/images/transparency/checkboxSelected.gif');
+}
+
+.px-faceted-search ul li.px-hover-selected {
+	list-style-image: url('/Content/images/transparency/checkboxRemove.gif');
+}
+
+.px-faceted-search ul li.px-hover-unselected {
+	list-style-image: url('/Content/images/transparency/checkboxChecked.gif');
+}
+
+.px-faceted-options-container {
+	border: 1px solid #aaa;
+	padding: 7px 5px;
+}
+
+.px-faceted-options {
+	padding-left: 10px;
+}
+
+/* Search option hanging indent */
+.px-faceted-options li {
+	padding-right: 4px;
+	padding-left: 18px ;
+	text-indent: -24px ;
+}
+
+.px-faceted-search {
+	margin-bottom: 15px;
+}
+/*** End Section Search widget ***/
+
+/*** Aggregate Widget ***/
+.px-summarytext {
+	display: block;
+	padding-left: 5px;
+	color: #767676;
+	padding-top: 2px;
+}
+/*** End Aggregate Widget ***/
+
+/* Font Stars */
+.px-star-rating.text-based .px-star {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.px-star-rating.text-based .px-star.last {
+	margin-right: 0px;
+}
+
+.px-star-rating.text-based .px-star-container {
+	position:relative;
+	display:inline-block;
+}
+
+.px-star-rating.text-based .px-star-fill {
+	overflow: hidden;
+	z-index: 2;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.px-star-rating.text-based {
+	overflow:hidden;
+	font-style: normal;
+	line-height:2;
+}
+
+.px-rating-aggregate .px-star-rating.text-based,
+.px-rating-rollup .px-star-rating.text-based,
+.px-questions .px-star-rating.text-based {
+	font-size: 22px;
+}
+
+.px-comments .px-star-rating.text-based {
+	font-size: 16px;
+}
