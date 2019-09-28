@@ -5,7 +5,6 @@
     "isFavorited":false,
     "gender":"male",
     "ethnicity":"white",
-    "isFavorite":"",
     "pages":[
         {
             "image":"./img/ex1.JPG",
