@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <script>
+    const response = fetch('http://worldclockapi.com/api/json/est/now')
+    const myJson = response.json();
+    console.log(JSON.stringify(myJson));
+    </script>
+  <h1>Authors</h1>
+  <ul id="authors"></ul>
+</body>
+</html>
