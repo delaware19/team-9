@@ -26,13 +26,15 @@ Richard Truong
 
 Michel Temgoua
 - School: University of Maryland- College Park
-- Year: Junior
+- Year: Junior student
 - Major: Electrical Engineering
 
 Allen Gueco
 - School: Villanova University
 - Year: Senior
 - Major: Computer Science
+
+Diverse team!
 
 ### Working on Project Nemours
 Developing a web app to help autistic children prepare for hospital visits using social stories

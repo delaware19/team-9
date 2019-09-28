@@ -7,8 +7,8 @@
 </head>
 <body>
   <script>
-    const response = fetch('http://worldclockapi.com/api/json/est/now')
-    const myJson = response.json();
+    const response = await fetch('http://worldclockapi.com/api/json/est/now')
+    const myJson = await response.json();
     console.log(JSON.stringify(myJson));
     </script>
   <h1>Authors</h1>
