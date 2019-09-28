@@ -1,0 +1,25 @@
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    text-align:center;
+}
+
+input {
+    margin: 0;
+    width:90%;
+    text-align:center;
+}
+
+form {
+    width:90%;
+    border:
+    1px solid white;
+    padding: 2% 5%;
+    text-align:center;
+}
+
+.identifiers {
+    text-align:center;
+}
