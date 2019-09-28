@@ -1,20 +1,27 @@
 {
     "id":3,
     "age":5,
-    "title":"My First Checkup",
+    "title":"Going to a Birthday Party",
     "isFavorited":false,
     "gender":"male",
-    "ethnicity":"asian",
+    "ethnicity":"white",
     "isFavorite":"",
     "pages":[
         {
-            "image":"/absolute_path_to_img1",
-            "text":[
-                {"0-5":"Hello"},
-                {"5-12":"Hello 2"},
-                {"12-18":"Hello 3"},
-                {"18+":"Hello 4"}
-            ]
+            "image":"./img/ex1.JPG",
+            "text": "Going to a birthday party"
+        },
+        {
+            "image":"./img/ex2.JPG",
+            "text": "Sometimes my friends will invite me to go to a party for their birthday."
+        },
+        {
+            "image":"./img/ex3.JPG",
+            "text": "I like to play with my friends at school."
+        },
+        {
+            "image":"./img/ex4.JPG",
+            "text": "The party could be at a house, or a play centre, or somewhere else."
         }
     ]
 }
