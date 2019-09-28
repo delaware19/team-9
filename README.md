@@ -25,7 +25,7 @@ Richard Truong
 
 Michel Temgoua
 - School: University of Maryland- College Park
-- Year: Junior
+- Year: Junior student
 - Major: Electrical Engineering
 
 Allen Gueco
