@@ -7,15 +7,15 @@
     "ethnicity":"Hispanic",
     "pages":[
         {
-            "image":"./../img/example4-1.jpg",
+            "image":"./img/example4-1.jpg",
             "text": ""
         },
         {
-            "image":"./../img/example4-2.jpg",
+            "image":"./img/example4-2.jpg",
             "text":"We might play chasey, or dig in the sandpit, or play ball, or something else."
         },
         {
-            "image":"./../img/example4-3.jpg",
+            "image":"./img/example4-3.jpg",
             "text":"I like to play with my friends at school."
         }
     ]
