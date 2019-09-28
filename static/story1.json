@@ -1,0 +1,14 @@
+{
+    'id':3,
+    'age':5,
+    'title':'My First Checkup',
+    'isFavorited':false,
+    'gender':'male',
+    'ethnicity':'white',
+    'pages':[
+        {
+            'image':'/absolute_path',
+            'text':[]
+        }
+    ]
+}
