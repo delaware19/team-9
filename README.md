@@ -2,27 +2,36 @@ This is Team 9's github repository for Code For Good Delaware 2019!
 
 # Team Members:
 
-Ayush Upneja: Computer Engineering Junior at Boston University
+Ayush Upneja:
+- School: Boston University
+- Year: Junior
+- Major: Computer Engineering
 
-Bronte Wen: CS/BME at Johns Hopkins University
+Bronte Wen: 
+- School: Johns Hopkins University
+- Year: Senior
+- Major: CS/BME
 
 Kevin Jerome
-    School: Penn State University - University Park, PA
-    Year: Junior
-    Major: Computer Science 
+- School: Penn State University - University Park, PA
+- Year: Junior
+- Major: Computer Science 
     
 
 Richard Truong
-    The Pennsylvania State University,
-    Junior,
-    IST
+- School: The Pennsylvania State University
+- Year: Junior
+- Major: IST
 
-Michel Temgoua,
-    University of Maryland- College Park,
-    Junior,
-    Electrical Engineering,
+Michel Temgoua
+- School: University of Maryland- College Park
+- Year: Junior
+- Major: Electrical Engineering
 
 Allen Gueco
-    School: Villanova University
-    Year: Senior
-    Major: Computer Science
+- School: Villanova University
+- Year: Senior
+- Major: Computer Science
+
+### Working on Project Nemours
+Developing a web app to help autistic children prepare for hospital visits using social stories
