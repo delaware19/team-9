@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V5</title>
+	<title>Social Story Entry</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -38,101 +38,55 @@
 				<span class="contact100-form-title">
 					Social Story Entry
 				</span>
+				<form id="info">
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100" >Reason for Visit *</span>
+					<input class="input100" id="title" type="text" name="name" placeholder="Enter the Reason">
+				</div>
 
 				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Needed Services *</span>
+					<span class="label-input100" >Enter Age Range *</span>
 					<div>
-						<select class="js-select2" name="service">
-							<option>Please chooses</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
-						</select>
-						<div class="dropDownSelect2"></div>
-					</div>
-				</div>
-				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Needed Services *</span>
-					<div>
-						<select class="js-select2" name="service">
-							<option>Please chooses</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
-						</select>
-						<div class="dropDownSelect2"></div>
-					</div>
-				</div>
-				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Needed Services *</span>
-					<div>
-						<select class="js-select2" name="service">
-							<option>Please chooses</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
+						<select class="js-select2" name="service" id="age">
+							<option></option>
+							<option>0-5</option>
+							<option>6-11</option>
+							<option>12-17</option>
+							<option>17+</option>
 						</select>
 						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
 
-
 				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Needed Services *</span>
+					<span class="label-input100">Enter Gender *</span>
 					<div>
-						<select class="js-select2" name="service">
-							<option>Please chooses</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
+						<select class="js-select2" name="service" id="gender">
+							<option></option>
+							<option>Male</option>
+							<option>Female</option>
 						</select>
 						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
-
-				<div class="w-full dis-none js-show-service">
-					<div class="wrap-contact100-form-radio">
-						<span class="label-input100">What type of products do you sell?</span>
-
-						<div class="contact100-form-radio m-t-15">
-							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
-							<label class="label-radio100" for="radio1">
-								Phycical Products
-							</label>
-						</div>
-
-						<div class="contact100-form-radio">
-							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
-							<label class="label-radio100" for="radio2">
-								Digital Products
-							</label>
-						</div>
-
-						<div class="contact100-form-radio">
-							<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
-							<label class="label-radio100" for="radio3">
-								Services Consulting
-							</label>
-						</div>
-					</div>
-
-					<div class="wrap-contact100-form-range">
-						<span class="label-input100">Budget *</span>
-
-						<div class="contact100-form-range-value">
-							$<span id="value-lower">610</span> - $<span id="value-upper">980</span>
-							<input type="text" name="from-value">
-							<input type="text" name="to-value">
-						</div>
-
-						<div class="contact100-form-range-bar">
-							<div id="filter-bar"></div>
-						</div>
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Enter Ethnicity *</span>
+					<div>
+						<select class="js-select2" name="service" id="ethnicity">
+							<option></option>
+							<option>Asian</option>
+							<option>Black</option>
+							<option>White</option>
+							<option>Hispanic</option>
+							<option>Other</option>
+						</select>
+						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
-
-				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
-					<span class="label-input100">Message</span>
+			</form>
+			  <form id="NewStory">
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Story">
+					<span class="label-input100">Social Story</span>
 					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
 				</div>
 
@@ -144,6 +98,8 @@
 						</span>
 					</button>
 				</div>
+			</form>
+
 			</form>
 		</div>
 	</div>
@@ -212,6 +168,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	<script src="Test.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
