@@ -1,5 +1,4 @@
 var Story = window.localStorage;
-var pagecount = 0;
 var myimagearray = [];
 var mytextarray = [];
 var stories = [];
